@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<style>
+#about-heading
+{
+text-align:center;
+font-size:45px;
+margin-top:15%;
+}
+
+#description
+{
+text-align:center;
+font-size:20px;
+}
+
+</style>
+<body style="background-color:#FAEBD7;">
+<h1 id="about-heading">About Page</h1><br></br>
+
+<p id="description">
+A page is one side of a leaf of paper, parchment or or other material is a book, magazine, newspaper, or other collection of sheets, on which text ot illustrations can be printed, written or drawn, to create documents.  It can be used as a<br>
+measure of communicating general quantity of information or more specific quantity.</p>
+ 
+</body>
+</html>

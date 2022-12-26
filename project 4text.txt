@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<style>
+.one
+{
+position:relative;
+}
+
+.one img{
+width: 100%;
+height: auto:
+}
+
+.two
+{
+position:absolute;
+top:40%;
+left:45%;
+transform;translate(-50%, -50%);
+color:white;
+
+}
+
+
+
+</style>
+<body>
+<title id="TitleName">FRIENDS  BOOK</title>
+
+<div class="one">
+<img id="backgroundImage"src="https://i.pinimg.com/564x/75/a5/67/75a5675edc4395bfd3711fb587d940a7.jpg"  alt="natural image">
+</div>
+
+<div class="two">
+<h1 class="center">FRIENDS  BOOK</h1>
+
+<form id="yourName"></form>
+<label for="yname">Your Name:</label>
+<input type="text" id="textBox" name="text"><br><br>
+
+<label id="field1">1. A message for me!<label><br>
+<input type="text" id="textBox1" name="text"><br><br>
+
+<label> 2. A nick name for me?</label><br>
+<input type="text" id="textBox2" name="text"><br><br>
+
+<label>3. Have you ever lied to me?</label><br>
+
+<input type="radio" id="yesMayBe" name="radio" value="yes">
+<label for="yes">Yes</label>
+
+<input type="radio" id="yesMayBe" name="radio" value="Maybe">
+<label for="Maybe">Maybe</label><br><br>
+ 
+
+<label>4. How do you feel when you talk to me?</label><br>
+
+<input type="radio" id="Happy" name="radio" value="Happy">
+<label for="Happy">Happy</label>
+
+<input type="radio"  name="radio" value="Irritated">
+<label for="Irritated">Irritated</label><br><br>
+
+<label>5. Do you like to go on a roadtrip with me?</label><br>
+<input type="radio" id="Yes" name="radio" value="Yes">
+<label for="Yes">Yes</label>
+
+<input type="radio"  name="radio" value="No">
+<label for="No">No</label><br><br>
+
+
+<label>6. Best colour that suits me?</label><br>
+<input type="checkbox" id="bestColour" name="radio" value="Red">
+<label for="Red">Red</label>
+
+<input type="checkbox"  name="checkbox" value="Black">
+<label for="Black">Black</label>
+
+<input type="checkbox"  name="checkbox" value="White">
+<label for="white">White</label>
+
+<input type="checkbox"  name="checkbox" value="Blue">
+<label for="Blue">Blue</label>
+
+<input type="checkbox"  name="checkbox" value="Green">
+<label for="Green">Green</label><br><br>
+
+<label>7. The best moment in our Friendship?</label><br>
+<input type="text" name="text">
+</div>
+
+</body>
+</html>
